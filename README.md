@@ -6,6 +6,8 @@
 
 ![Employees Database ERD](./EmployeeSQL/Employees_db_ERD.png)
 
+![Employees Database ERD](./data)
+
 ## Data Engineering
 
 
