@@ -11,7 +11,7 @@
 ## Data Engineering
 
 
-Using the information from the ERD, I have created a table schema for each of the six CSV files in the [Employees Table Schema](./EmployeeSQL/Employee_Tables_Schema.sql) file, specifying the data types, primary keys, foreign keys, and other constraints.
+Using the information from the ERD, I have created a database table schema for each of the six CSV files in the [Employees Table Schema](./EmployeeSQL/Employee_Tables_Schema.sql) file, specifying the data types, primary keys, foreign keys, and other constraints.
 
 ## Data Analysis
 
@@ -26,9 +26,9 @@ In the [Employees DB Queries](./EmployeeSQL/Employees_db_queries.sql) file, you 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Data Visualization with Python
+## Data Visualization with Pandas
 
-In the [Employee DB visualization in Python](./EmployeeSQL/Employee_db_analysis.ipynb) file, I have imported the SQL database into Pandas for further analysis and visualization of the employees database.The file contains the code for importing the SQL database into Pandas as well as the below graphs:
+In the [Employee DB visualization in Python](./EmployeeSQL/Employee_db_analysis.ipynb) file, I have imported the Employees SQL database into Pandas for further analysis and visualization.The file contains the code for importing the SQL database into Pandas as well as the below graphs:
 
 * A histogram to visualize the most common salary ranges for employees.
 * A bar chart of average salary by title.
