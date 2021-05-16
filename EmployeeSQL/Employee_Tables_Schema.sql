@@ -40,11 +40,10 @@ CREATE TABLE "employees" (
 );
 
 CREATE TABLE "salaries" (
-    "id" SERIAL   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
     "salary" INTEGER   NOT NULL,
     CONSTRAINT "pk_salaries" PRIMARY KEY (
-        "id"
+        "emp_no"
      )
 );
 
