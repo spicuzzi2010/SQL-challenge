@@ -2,11 +2,11 @@
 
 ## Data Modeling
 
-### Inspect the CSVs and sketch out an ERD of the tables.
+### Inspect the CSVs (![Employees CSV's](./data)) and sketch out an ERD of the tables.
 
 ![Employees Database ERD](./EmployeeSQL/Employees_db_ERD.png)
 
-![Employees Database ERD](./data)
+
 
 ## Data Engineering
 
